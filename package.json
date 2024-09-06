@@ -1,0 +1,16 @@
+{
+  "name": "fufufafa",
+  "version": "1.0.0",
+  "description": "fufufafa archive",
+  "dependencies": {
+    "capture-website": "^4.1.0",
+    "moment": "^2.30.1"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "type": "module"
+}
