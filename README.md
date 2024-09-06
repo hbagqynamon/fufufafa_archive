@@ -30,7 +30,7 @@ See `fufufafa_archive_kaskus.json` file.
 #### Added script to capture screenshot of all post as image file. Image contains whole web page of each post.
 #### To do that, it can be executed by running node js script below
 `node capture-all-post.js`
-#### By default it's only capture first 100 posts which has not been captured, or you can also put parameter `max` with the maximum post will be captured at each execution.
+#### By default it's only capture first 100 posts which has not been captured, or you can also put parameter `max` with the maximum post will be captured for each execution.
 #### The result image will be saved into `capture` directory, or you can also change the name of directory.
 #### For deleted post, the result image will contain "Thread dihapus" page.
 
