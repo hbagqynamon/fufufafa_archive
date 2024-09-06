@@ -1,6 +1,7 @@
 # fufufafa_archive
 #### I have saved all posts by fufufafa at kaskus forum (https://www.kaskus.co.id/@fufufafa/) into JSON file.
 ## Sample:
+See `fufufafa_archive_kaskus.json` file.
 ```
 {
       "href": "/post/51f198751ed719ea22000004/?ref=profile&med=post",
@@ -25,4 +26,12 @@
 ## Note:
 #### Some posts may have quote from other user, I put [Quote: ........ ] for the quote from other user. So it was not actually written by fufufafa.
 ###
+## Capture screenshot of all posts
+#### Added script to capture screenshot of all post as image file. Image contains whole web page of each post.
+#### To do that, it can be execute with running node js script below
+`node capture-all-post.js`
+#### By default it's only capture first 100 posts which has not been captured, or you can also put parameter `max` with the maximum post will be captured at each execution.
+#### The result image will be saved into `capture` directory, or you can also change the name of directory.
+#### For deleted post, the result image will contain "Thread dihapus" page.
+
 ### Thank you
