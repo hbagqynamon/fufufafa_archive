@@ -1,6 +1,6 @@
 # fufufafa_archive
 # I have saved all posts by fufufafa at kaskus forum (https://www.kaskus.co.id/@fufufafa/) into JSON file.
-# List of fields is:
+# Properties:
 # - href: path to the thread and automatically scroll to post, it can be prefixed with https://www.kaskus.co.id to access it
 # - ref: hash reference to the post, some posts doesn't have hash reference, it replaced with ???[date the post]
 # - date: date of the post in UTC+07:00 timezone
